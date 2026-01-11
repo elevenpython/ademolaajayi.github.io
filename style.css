@@ -1,1 +1,87 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background: #f8fafc;
+    color: #0f172a;
+    line-height: 1.6;
+}
 
+.hero {
+    background: linear-gradient(135deg, #0f172a, #2563eb);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: auto;
+}
+
+.links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 18px;
+    border: 1px solid white;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.links a:hover {
+    background: rgba(255,255,255,0.15);
+}
+
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h3 {
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 6px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.card h4 {
+    margin: 0;
+}
+
+.card span {
+    font-size: 0.9rem;
+    color: #475569;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.certs li {
+    margin-bottom: 6px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0f172a;
+    color: white;
+}
